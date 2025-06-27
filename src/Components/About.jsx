@@ -17,7 +17,7 @@ function About({dark}) {
 
             <motion.div initial={{opacity:0, scale:0.9}} whileInView={{opacity:1, scale:1}} transition={{duration:0.6}}
              className='w-52 mx-auto rounded h-58  overflow-hidden sm:mt-2 sm:w-84 sm:h-96 sm:rounded-lg lg:w-[26rem] lg:h-[26rem] lg:rounded-full lg:mt-4 xl:rounded-md xl:max-w-56 xl:h-[21rem] xl:mt-[38px]'>
-                <img className='w-full bg-cover object-cover bg-center' src="./src/assets/myImage.jpeg" alt="" />
+                <img className='w-full bg-cover object-cover bg-center' src="/myImage.jpeg" alt="" />
             </motion.div>
 
             <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6, delay:0.8}}

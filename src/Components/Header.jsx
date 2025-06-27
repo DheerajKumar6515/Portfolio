@@ -13,7 +13,7 @@ function Header({dark}) {
 
             <motion.div initial={{scale:0}} whileInView={{scale:1}} transition={{duration:0.8, type:'spring', stiffness:100}}
              className='w-32 h-32 sm:w-72 sm:h-72 lg:w-72 lg:h-72 xl:w-40 xl:h-40 2xl:w-42 2xl:h-42 rounded-full overflow-hidden mb-3 '>
-              <img className='w-full bg-cover bg-center object-cover' src="./src/assets/myImage.jpeg" alt="" />
+              <img className='w-full bg-cover bg-center object-cover' src="/myImage.jpeg" alt="" />
             </motion.div>
 
             <motion.p

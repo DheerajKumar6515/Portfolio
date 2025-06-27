@@ -23,7 +23,7 @@ function Projects({dark}) {
         className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-3 sm:w-[48rem] sm:m-auto lg:w-[55rem] xl:w-[80%] 2xl:w-[63%] '>
 
          <motion.div whileHover={{scale:1.05}} transition={{duration:0.3}}
-          className='w-70 relative group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(./src/assets/grocery.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
+          className='w-70 relative group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(/grocery.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
          
                  <div className='bg-white w-62 mx-auto rounded-md px-3 py-3 flex items-center justify-between mt-40 sm:mt-64 sm:w-78 sm:py-3 lg:mt-76 lg:w-92 lg:py-3 lg:px-4 xl:mt-40 xl:py-1.5 xl:px-2 xl:w-52 group-hover:-translate-y-1 transition duration-500'>
                 <div>
@@ -38,7 +38,7 @@ function Projects({dark}) {
 
          
          <motion.div whileHover={{scale:1.05}} transition={{duration:0.3}}
-          className='w-70 group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(./src/assets/ecommerce.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
+          className='w-70 group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(/ecommerce.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
          
                  <div className='bg-white w-62 mx-auto rounded-md px-3 py-3 flex items-center justify-between mt-40 sm:mt-64 sm:w-78 sm:py-3 lg:mt-76 lg:w-92 lg:py-3 lg:px-4 xl:mt-40 xl:py-1.5 xl:px-2 xl:w-52 group-hover:-translate-y-1 transition duration-500'>
                 <div>
@@ -53,7 +53,7 @@ function Projects({dark}) {
 
         
          <motion.div whileHover={{scale:1.05}} transition={{duration:0.3}}
-          className='w-70 group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(./src/assets/blog.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
+          className='w-70 group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(/blog.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
          
               <div className='bg-white w-62 mx-auto rounded-md px-3 py-3 flex items-center justify-between mt-40 sm:mt-64 sm:w-78 sm:py-3 lg:mt-76 lg:w-92 lg:py-3 lg:px-4 xl:mt-40 xl:py-1.5 xl:px-2 xl:w-52 group-hover:-translate-y-1 transition duration-500'>
         <div>
@@ -67,7 +67,7 @@ function Projects({dark}) {
          </motion.div>
          
         <motion.div whileHover={{scale:1.05}} transition={{duration:0.3}}
-         className='w-70 group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(./src/assets/space.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
+         className='w-70 group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(/space.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>
          
               <div className='bg-white w-62 mx-auto rounded-md px-3 py-3 flex items-center justify-between mt-40 sm:mt-64 sm:w-78 sm:py-3 lg:mt-76 lg:w-92 lg:py-3 lg:px-4 xl:mt-40 xl:py-1.5 xl:px-2 xl:w-52 group-hover:-translate-y-1 transition duration-500'>
         <div>
