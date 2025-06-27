@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 function About({dark}) {
   return (
     <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1}}
-     id='about' className={`${dark ? 'bg-black':'bg-white'} w-full h-auto sm:h-screen md:h-auto  lg:h-screen xl:h-[80vh]` }>
+     id='about' className={`${dark ? 'bg-black':'bg-white'} w-full h-full sm:h-screen md:h-auto  lg:h-full xl:h-[80vh]` }>
 
         <motion.p initial={{opacity:0, y:-20}} whileInView={{opacity:1, y:0}} transition={{duration:0.5, delay:0.3}}
          className={`text-center sm:text-2xl sm:py-5 capitalize ${dark ? 'text-neutral-500':'text-black/70'}  mb-2 xl:text-lg xl:pb-0`}style={{fontFamily:'Ovo'}}>introduction</motion.p>

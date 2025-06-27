@@ -5,22 +5,22 @@ import { motion } from 'motion/react'
 function Projects({dark}) {
   return (
     <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1}}
-     id='projects' className={`${dark ? 'bg-black':'bg-white'} w-full h-auto px-2 xl:h-[65vh] ` }>
+     id='projects' className={`${dark ? 'bg-black':'bg-white'} w-full h-auto px-2  xl:h-[67vh] ` }>
 
        <div className='py-3 text-center'>
           <motion.p initial={{opacity:0, y:-20}} whileInView={{opacity:1, y:0}} transition={{duration:0.5, delay:0.3}}
-           className={`font-serif text-xs py-2 ${dark ? 'text-white/60':'text-gray-600'}  sm:text-base sm:mb-1 lg:text-xl lg:pt-8 xl:text-base xl:p-0`}>My portfolio</motion.p>
+           className={`font-serif text-xs py-2 ${dark ? 'text-white/60':'text-gray-600'} pt-8 md:pt-12 sm:text-base sm:mb-1 lg:text-xl lg:pt-16 xl:pt-4 xl:text-base `}>My portfolio</motion.p>
 
           <motion.h1 initial={{opacity:0, y:-20}} whileInView={{opacity:1, y:0}} transition={{duration:0.5, delay:0.5}}
            className={`${dark ? 'text-white':'text-black'} text-lg font-serif tracking-wide sm:text-3xl sm:mb-3 lg:text-4xl xl:text-2xl` }>My latest work</motion.h1>
 
           <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5, delay:0.7}}
-           className={`${dark ? 'text-white/60':'text-gray-600'} text-[13px] py-1 px-3.5 font-sans tracking-wide mb-1 sm:text-xl sm:px-24 sm:mb-5 lg:text-2xl xl:text-[14px] xl:px-72 xl:-mt-3.5 2xl:mt-0 2xl:px-[26rem] 2xl:text-xs` }>Explore my projects showcasing practical skills in building dynamic, responsive web applications with modern technologies and frameworks.</motion.p>
+           className={`${dark ? 'text-white/60':'text-gray-600'} text-[13px] py-1 px-3.5 font-sans tracking-wide mb-1 sm:text-xl sm:px-24 sm:mb-5 lg:text-2xl xl:pt-[3px] xl:text-[14px] xl:px-72 xl:-mt-3.5 2xl:mt-0 2xl:px-[26rem] 2xl:text-xs` }>Explore my projects showcasing practical skills in building dynamic, responsive web applications with modern technologies and frameworks.</motion.p>
        </div>
 
        
        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6, delay:0.9}}
-        className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-3 sm:w-[48rem] sm:m-auto lg:w-[55rem] xl:w-[80%] 2xl:w-[63%] '>
+        className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-3 sm:w-[48rem] sm:m-auto lg:w-[55rem] xl:w-[80%] 2xl:w-[63%] 2xl:gap-12'>
 
          <motion.div whileHover={{scale:1.05}} transition={{duration:0.3}}
           className='w-70 relative group sm:w-88 h-[15rem] sm:mb-3 sm:h-[22rem] lg:w-[26rem] lg:h-[25rem] mx-auto rounded-md overflow-hidden bg-[url(/grocery.png)] bg-center bg-cover object-cover lg:mb-2 xl:w-56 xl:h-56'>

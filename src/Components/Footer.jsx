@@ -15,7 +15,7 @@ function Footer({dark}) {
           </div>
 
           <div className='mt-2 xl:flex xl:gap-5 xl:mt-3 xl:mb-4'>
-            <a href='#'> <p className={`text-xs ${dark ? 'text-neutral-500': 'text-gray-600'} cursor-pointer sm:text-base lg:text-lg xl:text-xs`}> <i className="ri-github-fill"></i>  GitHub</p></a>
+            <a href='https://github.com/DheerajKumar6515'> <p className={`text-xs ${dark ? 'text-neutral-500': 'text-gray-600'} cursor-pointer sm:text-base lg:text-lg xl:text-xs`}> <i className="ri-github-fill"></i>  GitHub</p></a>
             <a href='#'> <p className={`text-xs ${dark ? 'text-neutral-500': 'text-gray-600'} cursor-pointer sm:text-base lg:text-lg xl:text-xs`}> <i className="ri-linkedin-box-fill"></i>  LinkedIn</p></a>
             <a href='#'> <p className={`text-xs ${dark ? 'text-neutral-500': 'text-gray-600'} cursor-pointer sm:text-base lg:text-lg xl:text-xs`}> <i className="ri-twitter-x-line"></i>  Twitter</p></a>
           </div>
