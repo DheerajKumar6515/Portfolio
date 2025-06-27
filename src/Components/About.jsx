@@ -31,7 +31,7 @@ function About({dark}) {
                      className={` border-[0.5px] rounded px-2 ${dark ? 'border-fuchsia-900 hover:shadow-[3px_3px_2px_white] hover:bg-fuchsia-900/50 ':'  hover:shadow-[3px_3px_2px_black] border-gray-500 hover:bg-rose-50'}  hover:-translate-y-1 duration-500`}>
                         <p className={`text-lg sm:text-4xl ${dark ? 'text-white/80':'text-black/70'} lg:text-4xl xl:text-base `}> <i className="ri-code-s-slash-line"></i> </p>
                         <p className={`capitalize ${dark ? 'text-white/80':'text-black/80'} mb-1 sm:text-3xl lg:text-4xl lg:mb-3 xl:text-base xl:mb-1`}>technical skills</p>
-                        <p className={`${dark ? 'text-white/80':'text-black/70'} text-xs mb-2 sm:text-xl lg:text-2xl lg:tracking-wide xl:text-[12px]`} >HTML, CSS, JavaScript, React Js, Next Js,Tailwind Css,Java,php,c++,python,c#, Node.js, Express.js,MongoDB,MySQL</p>
+                        <p className={`${dark ? 'text-white/80':'text-black/70'} text-xs mb-2 sm:text-xl lg:text-2xl lg:tracking-wide xl:text-[12px]`} >HTML, CSS, JavaScript, React Js, Next Js,Tailwind Css,Java,php,c++, python,c#, Node.js, Express.js,MongoDB, MySQL</p>
                     </motion.div>
 
                    <motion.div whileHover={{scale:1.05}}
@@ -58,13 +58,13 @@ function About({dark}) {
                     className='flex items-center justify-items-start gap-6 sm:gap-16 sm:px-3 mt-2 lg:mt-8 lg:gap-24 xl:-ml-72 xl:mt-0 xl:gap-8 xl:py-2 xl:px-4 2xl:ml-0 2xl:pl-0'>
 
                         <motion.div whileHover={{scale:1.1}}
-                         className='border rounded border-gray-400 px-1 py-1 sm:mt-4 xl:mt-0 xl:ml-[17rem] 2xl:-ml-0 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="./src/assets/vscode.png" alt="" /> </motion.div>
+                         className='border rounded border-gray-400 px-1 py-1 sm:mt-4 xl:mt-0 xl:ml-[17rem] 2xl:-ml-0 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="/vscode.png" alt="" /> </motion.div>
                         <motion.div whileHover={{scale:1.1}}
-                         className='border rounded border-gray-400 px-1 py-1 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="./src/assets/firebase.png" alt="" /> </motion.div>
+                         className='border rounded border-gray-400 px-1 py-1 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="/firebase.png" alt="" /> </motion.div>
                         <motion.div whileHover={{scale:1.1}}
-                         className='border rounded border-gray-400 px-1 py-1 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="./src/assets/mongodb.png" alt="" /> </motion.div>
+                         className='border rounded border-gray-400 px-1 py-1 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="/mongodb.png" alt="" /> </motion.div>
                         <motion.div whileHover={{scale:1.1}}
-                         className='border rounded border-gray-400 px-1 py-1 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="./src/assets/git.png" alt="" /> </motion.div>
+                         className='border rounded border-gray-400 px-1 py-1 hover:-translate-y-1 duration-500'> <img className='w-9 sm:w-16 lg:w-20 xl:w-9 ' src="/git.png" alt="" /> </motion.div>
                     </motion.div>
                 </div>
 
