@@ -40,7 +40,7 @@ function Header({dark}) {
               initial={{y:30, opacity:0}}
               whileInView={{y:0, opacity:1}}
                transition={{duration:0.6, delay:1}}
-              href='/my resume.pdf' download><p className={`w-36 px-6 py-3  sm:text-xl sm:w-52 sm:py-4 xl:text-base xl:py-3  xl:w-48 2xl:text-xs 2xl:w-44 2xl:py-4 cursor-pointer lg:w-32 text-xs rounded-full ${dark ? 'bg-white text-black hover:bg-neutral-600 hover:text-white': 'border text-gray-600 hover:bg-gray-300'}  lg:text-2xl lg:w-62 `}>my resume <i className="ri-download-2-line"></i></p></motion.a>
+              href='/myResume.pdf' download><p className={`w-36 px-6 py-3  sm:text-xl sm:w-52 sm:py-4 xl:text-base xl:py-3  xl:w-48 2xl:text-xs 2xl:w-44 2xl:py-4 cursor-pointer lg:w-32 text-xs rounded-full ${dark ? 'bg-white text-black hover:bg-neutral-600 hover:text-white': 'border text-gray-600 hover:bg-gray-300'}  lg:text-2xl lg:w-62 `}>my resume <i className="ri-download-2-line"></i></p></motion.a>
 
              </div>
             
